@@ -1,6 +1,6 @@
 
 
-const Contact = () => (
+function Contact ()  {
   <section id="contact" className="contact">
     <h2>Contact Me</h2>
     <form name="contact" method="POST" data-netlify="true">
@@ -20,6 +20,6 @@ const Contact = () => (
       <button type="submit">Send Message</button>
     </form>
   </section>
-);
+};
 
 export default Contact;
